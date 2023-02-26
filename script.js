@@ -21,11 +21,11 @@ function efectoHabilidades(){
     var distancia_skills = window.innerHeight - skills.getBoundingClientRect().top;
     if(distancia_skills >= 300){
         let habilidades = document.getElementsByClassName("progreso");
-        habilidades[0].classList.add("javaScript");
-        habilidades[1].classList.add("HTML + CSS");
-        habilidades[2].classList.add("ILLUSTRATOR");
-        habilidades[3].classList.add("PLAGIO");
-
+        habilidades[0].classList.add("javascript");
+        habilidades[1].classList.add("htmlcss");
+        habilidades[2].classList.add("ux");
+        habilidades[3].classList.add("illustrator");
+        habilidades[4].classList.add("plagio");
     }
 }
 
