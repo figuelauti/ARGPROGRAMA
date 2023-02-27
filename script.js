@@ -26,6 +26,7 @@ function efectoHabilidades(){
         habilidades[2].classList.add("ux");
         habilidades[3].classList.add("illustrator");
         habilidades[4].classList.add("plagio");
+
     }
 }
 

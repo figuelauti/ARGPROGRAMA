@@ -256,25 +256,35 @@ h3 {
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 30%;}
 }
 
 .skills .skill .ux{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s ux forwards;
 }
-@keyframes Iillustrator {
+@keyframes ux {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 0%;}
 }
 
-.skills .skill .plagio{}
+.skills .skill .illustrator{
+    width: 0%;
+    animation: 2s illustrator forwards;
+}
+@keyframes illustrator {
+    0%{width: 0%;}
+    100%{width: 20%;}
+}
+.skills .skill .plagio{
     width: 0%;
     animation: 2s plagio forwards;
-
-
-
-    /* SECCION PORTFOLIO */
+}
+@keyframes plagio {
+    0%{width: 0%;}
+    100%{width: 99%;}
+}
+/* SECCION PORTFOLIO */
 .portfolio{
     background-color: #252A2E;
     color: #fff;
@@ -333,7 +343,7 @@ h3 {
 }
 /* SECCION CONTACTO */
 .contacto{
-    background-image: url(img/contact_bg.png);
+    background-image: url(imagenes/contact_bg.png);
     background-color: #1e2326;
     color: #fff;
     padding: 50px 0;
